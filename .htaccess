@@ -1,0 +1,15 @@
+ 
+# Enable file uploads
+php_value file_uploads On
+
+# Set the maximum file upload size (e.g., 10MB)
+php_value upload_max_filesize 10M
+
+# Set the maximum POST data size (ensure it's larger than the upload size)
+php_value post_max_size 12M
+
+# Increase memory limit if needed
+php_value memory_limit 128M
+
+# Specify the temporary directory for file uploads
+php_value upload_tmp_dir /path/to/tmp
